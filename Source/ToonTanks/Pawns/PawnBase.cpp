@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Pawns/PawnBase.h"
-
+//#include "Pawns/PawnBase.h"
+#include "ToonTanks/Pawns/PawnBase.h"
 // Sets default values
 APawnBase::APawnBase()
 {
