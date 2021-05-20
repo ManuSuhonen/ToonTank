@@ -867,3 +867,69 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.20-08.48.10:609][742]LogEditorTransaction: Undo Clicking on Actors
 [2021.05.20-08.48.11:071][791]Cmd: TRANSACTION UNDO
 [2021.05.20-08.48.11:071][791]LogEditorTransaction: Undo Move Actors
+[2021.05.20-08.49.38:612][694]LogRenderer: Reallocating scene render targets to support 1116x564 Format 10 NumSamples 1 (Frame:6076).
+[2021.05.20-08.49.38:694][695]LogRenderer: Reallocating scene render targets to support 1116x584 Format 10 NumSamples 1 (Frame:6078).
+[2021.05.20-08.49.38:777][696]LogRenderer: Reallocating scene render targets to support 1116x612 Format 10 NumSamples 1 (Frame:6080).
+[2021.05.20-08.49.51:286][950]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.20-08.53.49:926][981]LogRenderer: Reallocating scene render targets to support 1132x612 Format 10 NumSamples 1 (Frame:11286).
+[2021.05.20-08.53.50:029][982]LogRenderer: Reallocating scene render targets to support 1144x612 Format 10 NumSamples 1 (Frame:11288).
+[2021.05.20-08.53.50:132][983]LogRenderer: Reallocating scene render targets to support 1180x612 Format 10 NumSamples 1 (Frame:11290).
+[2021.05.20-08.53.50:225][984]LogRenderer: Reallocating scene render targets to support 1208x612 Format 10 NumSamples 1 (Frame:11292).
+[2021.05.20-08.53.50:325][985]LogRenderer: Reallocating scene render targets to support 1212x612 Format 10 NumSamples 1 (Frame:11294).
+[2021.05.20-08.54.44:204][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.20-08.54.44:531][605]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.05.20-08.54.53:158][540]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.05.20-08.56.08:848][619]LogSlate: Took 0.006032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.20-08.56.38:331][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.05.20-08.56.38:334][143]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.008
+[2021.05.20-09.03.57:759][403]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" -game -rocket -progress
+[2021.05.20-09.03.58:065][403]Discovering modules, targets and source code for project...
+[2021.05.20-09.03.59:976][403]Binding IntelliSense data...
+[2021.05.20-09.04.06:934][403]Binding IntelliSense data... 100%
+[2021.05.20-09.04.06:934][403]Writing project files...
+[2021.05.20-09.04.07:541][403]Writing project files... 100%
+[2021.05.20-09.04.07:743][403]LogHotReload: Recompiling module ToonTanks...
+[2021.05.20-09.04.07:753][403]Candidate modules for hot reload:
+[2021.05.20-09.04.07:753][403]  ToonTanks
+[2021.05.20-09.04.07:753][403]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1396 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.20-09.04.50:634][403]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+Creating makefile for ToonTanksEditor (no existing makefile)
+Parsing headers for ToonTanksEditor
+  Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for ToonTanksEditor in 8.6804778 seconds
+Building ToonTanksEditor...
+Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 12 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] PawnBase.cpp
+  C:\Users\Manu\Documents\ToonTank\Source\ToonTanks\Pawns\PawnBase.cpp(4): fatal error C1083: Cannot open include file: 'Pawns/PawnBase.h': No such file or directory
+  [4/9] ToonTanks.cpp
+  [5/9] ToonTanks.init.gen.cpp
+  [6/9] PawnBase.gen.cpp
+
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: New page: Compilation - 20 May 2021, 3:04:50 pm
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 8.6804778 seconds
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.20-09.04.50:636][403]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [1/9] Default.rc2
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [3/9] PawnBase.cpp
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   C:\Users\Manu\Documents\ToonTank\Source\ToonTanks\Pawns\PawnBase.cpp(4): fatal error C1083: Cannot open include file: 'Pawns/PawnBase.h': No such file or directory
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [4/9] ToonTanks.cpp
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [5/9] ToonTanks.init.gen.cpp
+[2021.05.20-09.04.50:636][403]CompilerResultsLog:   [6/9] PawnBase.gen.cpp
+[2021.05.20-09.04.50:636][403]LogMainFrame: MainFrame: Module compiling took 42.894 seconds
+[2021.05.20-09.05.48:273][403]LogSlate: Window 'Message' being destroyed
+[2021.05.20-09.05.48:279][403]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'PawnBase', however you must recompile the 'ToonTanks' module before it will appear in the Content Browser. Failed to compile newly created game module.
+
+Would you like to open the Output Log to see more details?
+[2021.05.20-09.05.48:280][403]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.05.20-09.05.48:302][403]LogSlate: Took 0.008812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.20-09.06.41:937][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.05.20-09.06.41:939][316]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.005
