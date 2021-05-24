@@ -1087,3 +1087,108 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.24-08.46.13:230][428]AssetCheck: New page: Asset Save: BP_PawnTurret
 [2021.05.24-08.46.13:231][428]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
 [2021.05.24-08.46.17:029][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.05.24-08.53.44:089][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.05.24-08.53.44:092][972]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.022
+[2021.05.24-09.03.44:694][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.05.24-09.03.44:696][649]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.021
+[2021.05.24-09.06.40:903][369]Candidate modules for hot reload:
+[2021.05.24-09.06.40:903][369]  ToonTanks
+[2021.05.24-09.06.40:903][369]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2867 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.24-09.06.40:905][369]Warning: Starting HotReload took  0.0s.
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: New page: Compilation - 24 May 2021, 3:06:46 pm
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.878484 seconds
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   [1/5] PawnBase.cpp
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   [2/5] PawnBase.gen.cpp
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   [3/5] UE4Editor-ToonTanks-2867.lib
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2867.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2867.exp
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   [4/5] UE4Editor-ToonTanks-2867.dll
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2867.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2867.suppressed.exp
+[2021.05.24-09.06.46:910][630]CompilerResultsLog:   [5/5] ToonTanksEditor.target
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Total time in Parallel executor: 1.29 seconds
+[2021.05.24-09.06.46:910][630]CompilerResultsLog: Total execution time: 5.83 seconds
+[2021.05.24-09.06.46:910][630]LogMainFrame: MainFrame: Module compiling took 6.010 seconds
+[2021.05.24-09.06.46:941][630]LogClass: Could not find existing class PawnBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.24-09.06.46:948][630]LogHotReload: Re-instancing PawnBase after hot-reload.
+[2021.05.24-09.06.47:004][630]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2021.05.24-09.06.47:008][630]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.24-09.06.47:023][630]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3602 classes and 862 folders.
+[2021.05.24-09.06.47:023][630]Display: HotReload took  6.1s.
+[2021.05.24-09.08.45:434][ 95]LogStaticMesh: Building static mesh SM_TankBase...
+[2021.05.24-09.08.45:512][ 95]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/Meshes/SM_TankBase.SM_TankBase
+[2021.05.24-09.09.07:476][239]LogStaticMesh: Building static mesh SM_TankTurret...
+[2021.05.24-09.09.07:504][239]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Meshes/SM_TankTurret.SM_TankTurret
+[2021.05.24-09.10.58:907][452]Cmd: MODE GRID=0
+[2021.05.24-09.12.56:641][100]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.24-09.12.59:750][312]Cmd: MODE GRID=1
+[2021.05.24-09.13.23:341][396]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.24-09.13.23:560][396]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.05.24-09.13.24:521][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.24-09.13.24:531][448]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTankC9654F03452BC1B0F54284A1FF4BAEE7.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.24-09.13.24:565][448]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.24-09.13.24:566][448]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.24-09.13.35:694][227]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.24-09.13.40:197][758]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2021.05.24-09.14.05:295][561]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.24-09.14.05:433][561]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2021.05.24-09.14.06:064][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.24-09.14.06:073][576]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTank5EAA0DF14F0A65F247762AAB25185F31.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.24-09.14.06:084][576]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.24-09.14.06:084][576]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.24-09.14.20:194][104]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.24-09.14.20:305][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.05.24-09.14.20:582][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.24-09.14.20:592][128]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTank1147DC834B0C34611FBB53B7CBC562B8.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.24-09.14.20:601][128]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.24-09.14.20:601][128]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.24-09.14.51:864][140]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.24-09.14.51:988][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.05.24-09.14.52:412][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.24-09.14.52:420][166]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTank4313DE5649D5A04F6A067DB4B4DCD8B2.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.24-09.14.52:432][166]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.24-09.14.52:432][166]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.24-09.14.55:460][428]LogSlate: Window 'BP_PawnTank' being destroyed
+[2021.05.24-09.15.30:541][466]LogStaticMesh: Building static mesh SM_TowerBase...
+[2021.05.24-09.15.30:614][466]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/Meshes/SM_TowerBase.SM_TowerBase
+[2021.05.24-09.15.56:977][186]Cmd: MODE GRID=0
+[2021.05.24-09.16.50:379][248]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.05.24-09.16.50:426][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.05.24-09.16.50:976][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2021.05.24-09.16.50:985][268]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTurret469695E04D1C28858C7A61AEA1603AF2.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.05.24-09.16.51:018][268]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.05.24-09.16.51:018][268]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.05.24-09.17.01:191][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.05.24-09.17.01:441][436]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.24-09.17.18:662][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.24-09.17.19:264][422]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTurret_C (BP_PawnTurret3)
+[2021.05.24-09.17.24:519][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTurret_C (BP_PawnTurret2)
+[2021.05.24-09.17.26:883][320]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTurret_C (BP_PawnTurret)
+[2021.05.24-09.17.33:559][112]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2021.05.24-09.17.33:889][141]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.24-09.17.36:066][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.24-09.17.39:618][822]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2021.05.24-09.18.06:891][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.05.24-09.18.06:901][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.05.24-09.18.06:912][331]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Main_Auto1D6769F4E43F478446086D389C35C1F06.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2021.05.24-09.18.06:913][331]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.045
+[2021.05.24-09.18.06:913][331]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
+[2021.05.24-09.18.30:445][901]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.24-09.18.31:322][934]Cmd: MODE GRID=1
+[2021.05.24-09.18.49:881][739]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.05.24-09.18.49:924][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.05.24-09.18.50:568][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2021.05.24-09.18.50:576][779]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTurret0F7733EC41C4C721F170E1BE2581CF5C.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.05.24-09.18.50:587][779]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.05.24-09.18.50:587][779]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.05.24-09.19.05:653][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.05.24-09.19.05:699][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.24-09.19.05:719][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.05.24-09.19.05:730][363]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Main7FE6532E45CAA5B388337BB111438DCC.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap'
+[2021.05.24-09.19.05:737][363]LogFileHelpers: Saving map 'Main' took 0.038
+[2021.05.24-09.19.05:755][363]AssetCheck: New page: Asset Save: Main
+[2021.05.24-09.19.05:755][363]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
