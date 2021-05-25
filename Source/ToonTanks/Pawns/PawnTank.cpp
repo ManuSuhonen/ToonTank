@@ -24,7 +24,15 @@ APawnTank::APawnTank()
 void APawnTank::BeginPlay()
 {
 	Super::BeginPlay();
+    PlayerControlRef = Cast<APlayerController>(GetController());
+
+    
 	
+}
+
+void APawnTank::OnDestruct() 
+{
+    Super::OnDestruct();
 }
 
 // Called every frame
@@ -34,6 +42,14 @@ void APawnTank::Tick(float DeltaTime)
     Rotate();
     Move();
 
+    if(PlayerControlRef)
+    {
+        FHitResult hit;
+        PlayerControlRef->GetHitResultUnderCursor(ECC_Visibility,false,hit);
+        FVector hitloc = hit.ImpactPoint;
+
+        RotateTurretFunc(hit.ImpactPoint);
+    }
 
 }
 
@@ -43,6 +59,8 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
     PlayerInputComponent->BindAxis("MoveForward",this,&APawnTank::CalcMoveInput);
     PlayerInputComponent->BindAxis("Turn",this,&APawnTank::CalcRotateInput);
+
+    PlayerInputComponent->BindAction("Fire",IE_Pressed,this,&APawnTank::Fire);
 }
 void APawnTank::CalcMoveInput(float Val) 
 {

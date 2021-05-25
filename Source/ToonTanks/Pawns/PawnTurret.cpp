@@ -18,6 +18,13 @@ void APawnTurret::BeginPlay()
     GetWorld()->GetTimerManager().SetTimer(FireRateTimerHandle,this,&APawnTurret::FireCondition,FireRate,true);
 }
 
+void APawnTurret::OnDestruct() 
+{
+    Super::OnDestruct();
+
+    Destroy();
+}
+
 // Called every frame
 void APawnTurret::Tick(float DeltaTime)
 {
@@ -36,8 +43,7 @@ void APawnTurret::FireCondition()
 
     if(dist <= FireRange)
     {
-        UE_LOG(LogTemp,Display,TEXT("distance from enemy turret to player: %f"),dist);
-
+        Fire();
     }
 
 }

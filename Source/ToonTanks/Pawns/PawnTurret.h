@@ -22,7 +22,7 @@ private:
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "AI Control",meta = (AllowPrivateAccess = "true"))
 	float FireRange = 300;
-	
+
 	void FireCondition();
 	float DistToPlayer();
 public:
@@ -30,5 +30,6 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	virtual void OnDestruct() override;
 	
 };

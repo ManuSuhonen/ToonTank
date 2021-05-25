@@ -35,7 +35,7 @@ void APawnBase::RotateTurretFunc(FVector Target)
 
 void APawnBase::Fire() 
 {
-	
+	UE_LOG(LogTemp,Warning,TEXT("Shell Fired."));
 }
 
 void APawnBase::OnDestruct() 
