@@ -1759,3 +1759,1104 @@ Would you like to open the Output Log to see more details?
 [2021.05.25-14.03.33:100][131]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.05.25-14.03.33:210][131]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3605 classes and 863 folders.
 [2021.05.25-14.03.33:210][131]Display: HotReload took  6.0s.
+[2021.05.25-14.16.04:962][203]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.16.04:968][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.16.04:968][203]PIE: New page: PIE session: Main (25 May 2021, 8:16:04 pm)
+[2021.05.25-14.16.04:990][203]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.16.05:002][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012171s)
+[2021.05.25-14.16.05:003][203]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.16.05:003][203]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2021.05.25-14.16.05:003][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.013425s)
+[2021.05.25-14.16.05:210][203]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2021.05.25-14.16.05:213][203]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.16.05:213][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.16.05:213][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.16.05:214][203]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.16.05:214][203]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.16.05:217][203]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.16.05:217][203]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.16.05:224][203]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.16.05:225][203]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.16.05:225][203]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.16.05:225][203]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.16.05:226][203]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.16.05:226][203]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.16.05:226][203]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.16.05:238][203]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.16.05:238][203]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.16.05:238][203]LogInit: FAudioDevice initialized.
+[2021.05.25-14.16.05:239][203]LogAudio: Display: Audio Device (ID: 9) registered with world 'Main'.
+[2021.05.25-14.16.05:244][203]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.16.05:246][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.16.05
+[2021.05.25-14.16.05:246][203]LogWorld: Bringing up level for play took: 0.001261
+[2021.05.25-14.16.05:246][203]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.05.25-14.16.05:248][203]PIE: Server logged in
+[2021.05.25-14.16.05:249][203]PIE: Play in editor total start time 0.281 seconds.
+[2021.05.25-14.16.08:518][593]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.16.11:289][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.16.11:290][922]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.16.11:290][922]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.16.11:290][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.16.11:295][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.16.11:313][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.16.11:339][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.16.11:346][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.16.11:347][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.16.11:360][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.16.11:418][922]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.05.25-14.16.11:449][923]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.05.25-14.19.31:152][658]Candidate modules for hot reload:
+[2021.05.25-14.19.31:152][658]  ToonTanks
+[2021.05.25-14.19.31:153][658]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1116 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.25-14.19.31:154][658]Warning: Starting HotReload took  0.0s.
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: New page: Compilation - 25 May 2021, 8:19:41 pm
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (ProjectileBase.cpp modified)
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.4789859 seconds
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Building 8 actions with 12 processes...
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [1/8] ProjectileBase.cpp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [2/8] ToonTanks.init.gen.cpp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [3/8] PawnTurret.cpp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [4/8] ProjectileBase.gen.cpp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [5/8] PawnTank.cpp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [6/8] UE4Editor-ToonTanks-1116.lib
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1116.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1116.exp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [7/8] UE4Editor-ToonTanks-1116.dll
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1116.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1116.suppressed.exp
+[2021.05.25-14.19.41:279][116]CompilerResultsLog:   [8/8] ToonTanksEditor.target
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Total time in Parallel executor: 4.56 seconds
+[2021.05.25-14.19.41:279][116]CompilerResultsLog: Total execution time: 10.05 seconds
+[2021.05.25-14.19.41:279][116]LogMainFrame: MainFrame: Module compiling took 10.129 seconds
+[2021.05.25-14.19.41:316][116]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.25-14.19.41:324][116]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.25-14.19.41:358][116]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2021.05.25-14.19.41:369][116]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.05.25-14.19.41:375][116]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.25-14.19.41:429][116]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0096 seconds. Added 3605 classes and 863 folders.
+[2021.05.25-14.19.41:430][116]Display: HotReload took 10.3s.
+[2021.05.25-14.19.43:884][309]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.19.43:890][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.19.43:890][309]PIE: New page: PIE session: Main (25 May 2021, 8:19:43 pm)
+[2021.05.25-14.19.43:890][309]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.19.43:893][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002868s)
+[2021.05.25-14.19.43:893][309]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.19.43:894][309]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2021.05.25-14.19.43:894][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003919s)
+[2021.05.25-14.19.43:958][309]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.05.25-14.19.43:961][309]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.19.43:961][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.19.43:961][309]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.19.43:961][309]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.19.43:964][309]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.19.43:964][309]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.19.43:973][309]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.19.43:973][309]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.19.43:973][309]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.19.43:973][309]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.19.43:974][309]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.19.43:974][309]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.19.43:974][309]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.19.43:986][309]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.19.43:986][309]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.19.43:986][309]LogInit: FAudioDevice initialized.
+[2021.05.25-14.19.43:986][309]LogAudio: Display: Audio Device (ID: 10) registered with world 'Main'.
+[2021.05.25-14.19.43:995][309]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.19.43:997][309]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.19.43
+[2021.05.25-14.19.43:997][309]LogWorld: Bringing up level for play took: 0.001168
+[2021.05.25-14.19.43:997][309]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.05.25-14.19.43:999][309]PIE: Server logged in
+[2021.05.25-14.19.44:000][309]PIE: Play in editor total start time 0.111 seconds.
+[2021.05.25-14.19.44:387][353]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.45:853][529]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.47:891][762]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.47:891][762]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.49:891][  2]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.49:891][  2]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.51:893][242]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.51:893][242]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.19.55:231][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.19.55:231][640]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.19.55:231][640]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.19.55:231][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.19.55:238][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.19.55:254][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.19.55:264][640]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.19.55:272][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.19.55:274][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.19.55:286][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.19.55:309][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.05.25-14.19.55:335][641]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.05.25-14.24.30:056][212]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" -game -rocket -progress
+[2021.05.25-14.24.30:461][212]Discovering modules, targets and source code for project...
+[2021.05.25-14.24.31:771][212]Binding IntelliSense data...
+[2021.05.25-14.24.34:406][212]Binding IntelliSense data... 100%
+[2021.05.25-14.24.34:406][212]Writing project files...
+[2021.05.25-14.24.35:009][212]Writing project files... 100%
+[2021.05.25-14.28.02:317][963]Candidate modules for hot reload:
+[2021.05.25-14.28.02:317][963]  ToonTanks
+[2021.05.25-14.28.02:318][963]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1936 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.25-14.28.02:319][963]Warning: Starting HotReload took  0.0s.
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: New page: Compilation - 25 May 2021, 8:28:05 pm
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:   [1/5] ProjectileBase.cpp
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:   [2/5] PawnTank.cpp
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:   [3/5] UE4Editor-ToonTanks-1936.lib
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1936.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1936.exp
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:   [4/5] UE4Editor-ToonTanks-1936.dll
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1936.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1936.suppressed.exp
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog:   [5/5] ToonTanksEditor.target
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Total time in Parallel executor: 1.47 seconds
+[2021.05.25-14.28.05:890][ 18]CompilerResultsLog: Total execution time: 3.23 seconds
+[2021.05.25-14.28.05:890][ 18]LogMainFrame: MainFrame: Module compiling took 3.607 seconds
+[2021.05.25-14.28.05:938][ 18]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.25-14.28.05:968][ 18]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2021.05.25-14.28.05:982][ 18]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 4 classes and 4 folders.
+[2021.05.25-14.28.05:987][ 18]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.25-14.28.06:049][ 18]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0129 seconds. Added 3605 classes and 863 folders.
+[2021.05.25-14.28.06:049][ 18]Display: HotReload took  3.8s.
+[2021.05.25-14.28.35:685][736]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.05.25-14.28.35:703][736]LogContentBrowser: Creating deferred item: NewFolder
+[2021.05.25-14.28.39:033][116]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2021.05.25-14.28.39:036][116]LogContentBrowser: End creating deferred item NewFolder
+[2021.05.25-14.29.20:982][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.29.21:356][947]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.05.25-14.29.39:303][470]LogStaticMesh: Building static mesh SM_Projectile...
+[2021.05.25-14.29.39:340][470]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Meshes/SM_Projectile.SM_Projectile
+[2021.05.25-14.30.08:846][917]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.05.25-14.30.08:928][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.05.25-14.30.09:408][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_ProjectileBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset" SILENT=true
+[2021.05.25-14.30.09:418][938]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_ProjectileBase7927560240A76FEEBD9E238CD765934F.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.05.25-14.30.09:430][938]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.05.25-14.30.09:430][938]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.30.57:033][571]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.25-14.31.37:703][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.05.25-14.31.37:708][ 87]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.048
+[2021.05.25-14.31.37:709][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/BP_ProjectileBase] ([1] browsable assets)...
+[2021.05.25-14.31.37:738][ 87]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase]
+[2021.05.25-14.31.37:739][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/BP_ProjectileBase]
+[2021.05.25-14.31.37:747][ 87]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_ProjectileBase_Auto1B3DED3504499C3E4EC5F09BCE2B84D99.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Blueprints/Actors/BP_ProjectileBase_Auto1.uasset'
+[2021.05.25-14.31.37:747][ 87]LogFileHelpers: Auto-saving content packages took 0.039
+[2021.05.25-14.32.26:515][233]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.05.25-14.32.26:543][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.05.25-14.32.27:487][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_ProjectileBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset" SILENT=true
+[2021.05.25-14.32.27:495][282]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_ProjectileBaseCF632FC2414D14217233F181F181F749.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.05.25-14.32.27:505][282]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.05.25-14.32.27:506][282]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.38.25:888][ 19]LogSlate: Window 'BP_ProjectileBase' being destroyed
+[2021.05.25-14.38.25:919][ 19]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.38.25:919][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.38.28:559][224]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" -game -rocket -progress
+[2021.05.25-14.38.28:862][224]Discovering modules, targets and source code for project...
+[2021.05.25-14.38.30:070][224]Binding IntelliSense data...
+[2021.05.25-14.38.32:493][224]Binding IntelliSense data... 100%
+[2021.05.25-14.38.32:493][224]Writing project files...
+[2021.05.25-14.38.33:098][224]Writing project files... 100%
+[2021.05.25-14.50.33:806][550]Candidate modules for hot reload:
+[2021.05.25-14.50.33:806][550]  ToonTanks
+[2021.05.25-14.50.33:807][550]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5008 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.25-14.50.33:808][550]Warning: Starting HotReload took  0.0s.
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: New page: Compilation - 25 May 2021, 8:50:44 pm
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 4.5643803 seconds
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Building 10 actions with 12 processes...
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [1/10] ToonTanks.init.gen.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [2/10] PawnBase.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [3/10] PawnTank.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [4/10] PawnTurret.gen.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [5/10] PawnTank.gen.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [6/10] PawnTurret.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [7/10] PawnBase.gen.cpp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [8/10] UE4Editor-ToonTanks-5008.lib
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5008.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5008.exp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [9/10] UE4Editor-ToonTanks-5008.dll
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5008.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5008.suppressed.exp
+[2021.05.25-14.50.44:515][755]CompilerResultsLog:   [10/10] ToonTanksEditor.target
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Total time in Parallel executor: 4.15 seconds
+[2021.05.25-14.50.44:515][755]CompilerResultsLog: Total execution time: 10.64 seconds
+[2021.05.25-14.50.44:515][755]LogMainFrame: MainFrame: Module compiling took 10.712 seconds
+[2021.05.25-14.50.44:559][755]LogClass: Could not find existing class PawnBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.25-14.50.44:559][755]LogClass: Could not find existing class PawnTank in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.25-14.50.44:560][755]LogClass: Could not find existing class PawnTurret in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.25-14.50.44:569][755]LogHotReload: Re-instancing PawnBase after hot-reload.
+[2021.05.25-14.50.44:587][755]LogHotReload: Re-instancing PawnTank after hot-reload.
+[2021.05.25-14.50.44:618][755]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.25-14.50.44:652][755]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 4 classes and 4 folders.
+[2021.05.25-14.50.44:658][755]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.25-14.50.44:718][755]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3605 classes and 863 folders.
+[2021.05.25-14.50.44:718][755]Display: HotReload took 10.9s.
+[2021.05.25-14.50.46:997][962]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.50.47:004][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.50.47:004][962]PIE: New page: PIE session: Main (25 May 2021, 8:50:47 pm)
+[2021.05.25-14.50.47:040][962]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.50.47:044][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003817s)
+[2021.05.25-14.50.47:045][962]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.50.47:045][962]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2021.05.25-14.50.47:045][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005415s)
+[2021.05.25-14.50.47:104][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.05.25-14.50.47:109][962]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.50.47:110][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.50.47:110][962]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.50.47:110][962]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.50.47:113][962]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.50.47:113][962]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.50.47:121][962]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.50.47:122][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.50.47:122][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.50.47:122][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.50.47:122][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.50.47:122][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.50.47:122][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.50.47:134][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.50.47:134][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.50.47:134][962]LogInit: FAudioDevice initialized.
+[2021.05.25-14.50.47:134][962]LogAudio: Display: Audio Device (ID: 11) registered with world 'Main'.
+[2021.05.25-14.50.47:142][962]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.50.47:143][962]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.50.47
+[2021.05.25-14.50.47:143][962]LogWorld: Bringing up level for play took: 0.001160
+[2021.05.25-14.50.47:143][962]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.05.25-14.50.47:145][962]PIE: Server logged in
+[2021.05.25-14.50.47:146][962]PIE: Play in editor total start time 0.145 seconds.
+[2021.05.25-14.50.47:682][ 24]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.50.48:364][106]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.50.51:000][412]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.50.51:000][412]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.50.51:101][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.50.51:101][419]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.50.51:101][419]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.50.51:101][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.50.51:108][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.50.51:125][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.50.51:142][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.50.51:145][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.50.51:146][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.50.51:161][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.50.51:184][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.05.25-14.50.51:216][420]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.05.25-14.51.05:330][658]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.25-14.51.08:024][906]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.51.08:024][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.51.08:076][906]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.25-14.51.21:052][967]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.25-14.51.33:267][398]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.25-14.51.33:314][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.05.25-14.51.33:771][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.25-14.51.33:780][445]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTank23A3993449DD38031A459EBBE14405A2.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.25-14.51.33:790][445]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.25-14.51.33:790][445]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.25-14.51.36:581][739]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.51.36:587][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.51.36:587][739]PIE: New page: PIE session: Main (25 May 2021, 8:51:36 pm)
+[2021.05.25-14.51.36:619][739]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.51.36:622][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003140s)
+[2021.05.25-14.51.36:623][739]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.51.36:623][739]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2021.05.25-14.51.36:623][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004237s)
+[2021.05.25-14.51.36:639][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.25-14.51.36:639][739]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.51.36:639][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.51.36:639][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.51.36:640][739]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.51.36:640][739]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.51.36:642][739]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.51.36:642][739]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.51.36:649][739]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.51.36:650][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.51.36:650][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.51.36:650][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.51.36:650][739]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.51.36:650][739]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.51.36:650][739]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.51.36:662][739]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.51.36:662][739]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.51.36:662][739]LogInit: FAudioDevice initialized.
+[2021.05.25-14.51.36:663][739]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2021.05.25-14.51.36:673][739]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.51.36:674][739]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.51.36
+[2021.05.25-14.51.36:674][739]LogWorld: Bringing up level for play took: 0.001088
+[2021.05.25-14.51.36:674][739]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.05.25-14.51.36:676][739]PIE: Server logged in
+[2021.05.25-14.51.36:677][739]PIE: Play in editor total start time 0.092 seconds.
+[2021.05.25-14.51.37:135][782]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.38:193][909]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.40:509][187]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.41:759][337]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.42:584][436]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.42:584][436]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.42:584][436]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.44:589][675]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.44:590][675]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.44:590][675]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.44:590][675]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.46:589][915]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.46:589][915]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.46:589][915]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.46:589][915]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.48:590][155]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.48:590][155]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.48:590][155]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.48:590][155]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.49:164][224]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.52:832][664]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.53:340][725]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.53:524][747]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.53:690][767]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.53:806][781]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.53:973][801]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:132][820]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:281][838]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:432][856]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:581][874]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:732][892]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.54:881][910]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.55:031][928]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.55:173][945]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.55:890][ 31]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.58:198][308]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.59:632][480]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.51.59:874][509]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:074][533]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:224][551]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:374][569]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:549][590]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:716][610]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.00:874][629]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:033][648]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:183][666]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:341][685]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:475][701]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:600][716]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:732][732]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:841][745]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.01:974][761]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:099][776]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:215][790]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:341][805]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:558][831]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:699][848]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:832][864]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.02:966][880]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:074][893]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:191][907]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:333][924]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:474][941]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:582][954]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:691][967]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:825][983]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.03:975][  1]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:124][ 19]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:282][ 38]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:441][ 57]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:575][ 73]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:716][ 90]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.04:849][106]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.05:007][125]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.09:557][671]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.52.13:060][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.52.13:060][ 88]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.52.13:060][ 88]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.52.13:060][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.52.13:065][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.52.13:081][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.52.13:096][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.52.13:096][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.52.13:097][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.52.13:111][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.52.13:114][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.05.25-14.52.13:142][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.05.25-14.52.15:368][275]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.52.15:369][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.52.18:210][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.52.20:143][713]LogSlate: Window 'BP_ProjectileBase' being destroyed
+[2021.05.25-14.52.20:179][713]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.52.20:179][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.52.20:225][713]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.52.51:778][869]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.05.25-14.52.51:842][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.05.25-14.52.52:601][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_ProjectileBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset" SILENT=true
+[2021.05.25-14.52.52:609][928]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_ProjectileBase0A622EF244AAAB7C78F163B37D990F35.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.05.25-14.52.52:621][928]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.05.25-14.52.52:621][928]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.25-14.52.53:917][ 70]LogSlate: Window 'BP_ProjectileBase' being destroyed
+[2021.05.25-14.52.59:142][529]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.25-14.53.05:200][128]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.53.05:205][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.53.05:205][128]PIE: New page: PIE session: Main (25 May 2021, 8:53:05 pm)
+[2021.05.25-14.53.05:240][128]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.53.05:243][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2021.05.25-14.53.05:243][128]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.53.05:244][128]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2021.05.25-14.53.05:244][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003971s)
+[2021.05.25-14.53.05:261][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.05.25-14.53.05:261][128]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.53.05:261][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.53.05:262][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.53.05:262][128]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.53.05:262][128]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.53.05:264][128]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.53.05:264][128]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.53.05:272][128]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.53.05:273][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.53.05:273][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.53.05:273][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.53.05:273][128]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.53.05:273][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.53.05:273][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.53.05:285][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.53.05:285][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.53.05:285][128]LogInit: FAudioDevice initialized.
+[2021.05.25-14.53.05:285][128]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main'.
+[2021.05.25-14.53.05:293][128]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.53.05:295][128]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.53.05
+[2021.05.25-14.53.05:295][128]LogWorld: Bringing up level for play took: 0.001202
+[2021.05.25-14.53.05:295][128]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.05.25-14.53.05:297][128]PIE: Server logged in
+[2021.05.25-14.53.05:297][128]PIE: Play in editor total start time 0.094 seconds.
+[2021.05.25-14.53.05:622][165]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.07:395][378]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.08:079][460]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.08:254][481]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.08:404][499]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.08:853][553]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.09:295][606]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.09:812][668]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.10:695][774]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.12:263][962]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.13:204][ 75]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.13:204][ 75]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.13:204][ 75]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.13:429][102]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.13:871][155]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.14:154][189]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.14:438][223]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.14:746][260]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.15:204][315]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.15:204][315]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.16:146][428]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.16:921][521]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.17:204][555]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.17:204][555]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.17:204][555]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.17:204][555]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.18:146][668]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.18:796][746]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:204][795]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:204][795]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:204][795]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:204][795]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:395][818]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.19:796][866]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.20:296][926]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.20:913][  0]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:204][ 35]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:204][ 35]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:204][ 35]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:204][ 35]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:437][ 63]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.21:930][122]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.22:096][142]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.22:287][165]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.22:488][189]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.22:679][212]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.22:829][230]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:004][251]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:171][271]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:204][275]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:204][275]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:204][275]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:204][275]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:338][291]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:513][312]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.23:688][333]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.24:280][404]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.24:446][424]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.24:604][443]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.24:738][459]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.24:897][478]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:063][498]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:204][515]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:204][515]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:204][515]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:204][515]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:221][517]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:396][538]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:546][556]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:714][576]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.25:854][593]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:022][613]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:188][633]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:355][653]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:513][672]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:671][691]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.26:831][710]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:022][733]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:172][751]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:204][755]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:204][755]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:204][755]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:204][755]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:422][781]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:572][799]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:721][817]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.27:897][838]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:064][858]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:230][878]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:405][899]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:597][922]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:788][945]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.28:913][960]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:072][979]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:205][995]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:205][995]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:205][995]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:205][995]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:238][999]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:455][ 25]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:655][ 49]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.29:846][ 72]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.30:205][115]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.30:388][137]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.30:605][163]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.30:813][188]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:005][211]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:205][235]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:206][235]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:206][235]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:206][235]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:206][235]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.31:405][259]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.33:205][475]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.33:205][475]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.33:205][475]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.33:205][475]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.34:080][580]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.34:613][644]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.35:097][702]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.35:205][715]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.35:205][715]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.35:205][715]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.35:205][715]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.36:472][865]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.37:205][953]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.37:205][953]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.37:205][953]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.37:205][953]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.37:655][  7]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.38:830][148]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:205][193]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:205][193]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:205][193]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:205][193]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:281][202]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.39:747][258]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.41:205][433]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.41:205][433]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.41:205][433]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.41:205][433]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.41:547][474]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.42:339][569]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.42:731][616]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.43:660][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.53.43:660][724]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.53.43:660][724]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.53.43:660][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.53.43:668][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.53.43:685][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.53.43:701][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.53.43:701][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.53.43:702][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.53.43:715][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.53.43:718][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.25-14.53.43:747][725]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.05.25-14.53.45:841][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.05.25-14.53.47:847][142]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.25-14.53.51:588][474]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.05.25-14.53.51:636][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.05.25-14.53.52:043][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2021.05.25-14.53.52:051][493]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTurret284E33EA44E91511593A2C93006B0B46.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.05.25-14.53.52:082][493]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.05.25-14.53.52:082][493]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.05.25-14.53.54:556][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.05.25-14.53.54:575][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-14.53.54:593][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.25-14.53.54:605][734]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Main8335BDC54BFF289FAD00BE872145E4E5.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap'
+[2021.05.25-14.53.54:610][734]LogFileHelpers: Saving map 'Main' took 0.035
+[2021.05.25-14.53.54:618][734]AssetCheck: New page: Asset Save: Main
+[2021.05.25-14.53.54:618][734]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.05.25-14.53.55:187][796]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.53.55:195][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.53.55:195][796]PIE: New page: PIE session: Main (25 May 2021, 8:53:55 pm)
+[2021.05.25-14.53.55:195][796]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.53.55:198][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002974s)
+[2021.05.25-14.53.55:199][796]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.53.55:199][796]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2021.05.25-14.53.55:199][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004015s)
+[2021.05.25-14.53.55:226][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.05.25-14.53.55:226][796]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.53.55:226][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.53.55:226][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.53.55:227][796]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.53.55:227][796]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.53.55:229][796]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.53.55:229][796]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.53.55:237][796]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.53.55:237][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.53.55:237][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.53.55:237][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.53.55:238][796]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.53.55:238][796]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.53.55:238][796]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.53.55:251][796]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.53.55:251][796]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.53.55:251][796]LogInit: FAudioDevice initialized.
+[2021.05.25-14.53.55:251][796]LogAudio: Display: Audio Device (ID: 14) registered with world 'Main'.
+[2021.05.25-14.53.55:259][796]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.53.55:260][796]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.53.55
+[2021.05.25-14.53.55:260][796]LogWorld: Bringing up level for play took: 0.001153
+[2021.05.25-14.53.55:260][796]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.25-14.53.55:262][796]PIE: Server logged in
+[2021.05.25-14.53.55:263][796]PIE: Play in editor total start time 0.07 seconds.
+[2021.05.25-14.53.55:665][831]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.57:190][ 14]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.57:190][ 14]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.57:190][ 14]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.59:190][254]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.59:190][254]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.59:191][254]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.53.59:191][254]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.01:190][494]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.01:190][494]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.01:190][494]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.01:190][494]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.07:191][214]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.08:525][374]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.09:191][454]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.09:191][454]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.09:841][532]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.10:150][569]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.10:383][597]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.10:558][618]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.10:817][649]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.11:192][694]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.11:192][694]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.11:193][694]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.11:193][694]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.11:359][714]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.13:192][934]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.13:192][934]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.13:192][934]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.13:192][934]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.15:192][174]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.15:192][174]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.16:784][365]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.17:092][402]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.17:192][414]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.17:192][414]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.17:192][414]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.17:568][459]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.18:492][570]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.19:192][654]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.19:192][654]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.19:193][654]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.21:134][887]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.21:192][894]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.21:517][933]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.21:851][973]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.22:134][  7]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.22:550][ 57]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.22:967][107]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:192][134]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:192][134]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:193][134]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:309][148]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:576][180]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.23:817][209]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.24:292][266]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.25:059][358]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.25:192][374]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.25:192][374]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.25:192][374]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.25:410][400]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.26:459][526]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.27:193][614]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.27:193][614]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.27:193][614]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.28:760][802]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.29:193][854]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.29:193][854]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.54.30:371][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.54.30:371][991]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.54.30:371][991]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.54.30:371][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.54.30:376][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.54.30:394][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.54.30:411][991]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.54.30:412][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.54.30:413][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.54.30:426][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.54.30:429][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.05.25-14.54.30:459][992]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.25-14.57.05:683][787]Candidate modules for hot reload:
+[2021.05.25-14.57.05:684][787]  ToonTanks
+[2021.05.25-14.57.05:684][787]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6219 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.25-14.57.05:685][787]Warning: Starting HotReload took  0.0s.
+[2021.05.25-14.57.14:322][751]CompilerResultsLog: New page: Compilation - 25 May 2021, 8:57:14 pm
+[2021.05.25-14.57.14:322][751]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.25-14.57.14:322][751]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (PawnTank.cpp modified)
+[2021.05.25-14.57.14:322][751]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.25-14.57.14:323][751]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.25-14.57.14:323][751]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:   [1/4] PawnTank.cpp
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-6219.lib
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6219.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6219.exp
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-6219.dll
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6219.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6219.suppressed.exp
+[2021.05.25-14.57.14:323][751]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.05.25-14.57.14:323][751]CompilerResultsLog: Total time in Parallel executor: 6.60 seconds
+[2021.05.25-14.57.14:323][751]CompilerResultsLog: Total execution time: 8.56 seconds
+[2021.05.25-14.57.14:323][751]LogMainFrame: MainFrame: Module compiling took 8.642 seconds
+[2021.05.25-14.57.14:363][751]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.25-14.57.14:429][751]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.05.25-14.57.14:434][751]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.25-14.57.14:497][751]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0117 seconds. Added 3605 classes and 863 folders.
+[2021.05.25-14.57.14:497][751]Display: HotReload took  8.8s.
+[2021.05.25-14.57.16:015][864]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-14.57.16:020][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-14.57.16:021][864]PIE: New page: PIE session: Main (25 May 2021, 8:57:16 pm)
+[2021.05.25-14.57.16:049][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.57.16:054][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005281s)
+[2021.05.25-14.57.16:055][864]LogAIModule: Creating AISystem for world Main
+[2021.05.25-14.57.16:055][864]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2021.05.25-14.57.16:055][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006357s)
+[2021.05.25-14.57.16:100][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.05.25-14.57.16:101][864]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-14.57.16:101][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-14.57.16:101][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-14.57.16:102][864]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-14.57.16:102][864]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-14.57.16:105][864]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-14.57.16:105][864]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-14.57.16:112][864]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.25-14.57.16:112][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-14.57.16:112][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-14.57.16:112][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-14.57.16:113][864]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-14.57.16:113][864]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.25-14.57.16:113][864]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.25-14.57.16:124][864]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.25-14.57.16:124][864]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.25-14.57.16:124][864]LogInit: FAudioDevice initialized.
+[2021.05.25-14.57.16:124][864]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main'.
+[2021.05.25-14.57.16:136][864]LogLoad: Game class is 'GameModeBase'
+[2021.05.25-14.57.16:137][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.25-17.57.16
+[2021.05.25-14.57.16:138][864]LogWorld: Bringing up level for play took: 0.001276
+[2021.05.25-14.57.16:138][864]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.25-14.57.16:140][864]PIE: Server logged in
+[2021.05.25-14.57.16:141][864]PIE: Play in editor total start time 0.121 seconds.
+[2021.05.25-14.57.16:548][911]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.18:013][ 87]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.18:263][117]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.19:097][217]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.19:305][242]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.19:535][256]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.20:735][400]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.20:884][418]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.21:018][434]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.21:168][452]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.22:619][626]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.22:769][644]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.22:987][670]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.24:018][794]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.25:635][988]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.25:785][  6]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.28:019][274]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.28:019][274]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.28:352][314]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.32:985][870]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.34:110][  5]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.34:243][ 21]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.34:501][ 49]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.36:018][231]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.36:185][251]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.36:335][269]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.36:652][307]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.37:302][385]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.37:477][406]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:002][469]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:018][471]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:019][471]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:177][490]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:385][515]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:510][530]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.38:727][556]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.39:027][592]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.39:302][625]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.39:501][649]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.40:018][711]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.40:019][711]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.48:019][671]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.48:286][703]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.50:018][911]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.50:277][942]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.52:019][151]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.52:328][188]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.54:019][391]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.54:419][439]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.56:019][631]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.56:361][672]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.57.58:019][871]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.00:020][111]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.02:019][351]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.02:020][351]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.03:778][562]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.04:020][591]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.06:020][831]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.08:021][ 71]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.10:020][311]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:170][449]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:345][470]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:470][485]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:611][502]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:762][520]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.11:911][538]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:020][551]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:037][553]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:178][570]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:312][586]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:470][605]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:613][622]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:737][637]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.12:871][653]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.13:021][671]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.13:179][690]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.14:021][791]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.14:021][791]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.21:202][651]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.21:361][670]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.21:503][687]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.21:627][702]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.22:019][749]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.24:018][989]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.24:336][ 27]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.25:828][206]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.25:977][224]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.26:019][229]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.26:111][240]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.26:294][262]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.26:453][281]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.27:637][423]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.28:620][541]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.28:811][564]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.28:995][586]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.29:153][605]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.29:303][623]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.29:461][642]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.29:619][661]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.29:811][684]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.30:069][715]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.36:017][426]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.36:359][467]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.38:017][666]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.40:017][906]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.42:018][146]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.42:626][219]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.43:635][340]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.43:843][365]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.44:017][386]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.44:176][405]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.44:409][433]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.44:634][460]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.44:817][482]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.45:043][509]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.45:326][543]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.45:585][574]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.45:818][602]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.46:017][626]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.46:052][630]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.46:276][657]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.48:017][866]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.48:018][866]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.48:018][866]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.51:644][301]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.52:626][419]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.53:527][527]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.54:352][626]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.55:527][767]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.56:494][883]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.56:927][935]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.57:327][983]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.57:769][ 36]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.58:218][ 90]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.58:360][107]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.58:493][123]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.58.58:627][139]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:194][567]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:344][585]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:469][600]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:602][616]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:794][639]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.02:952][658]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:111][677]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:294][699]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:460][719]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:635][740]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:802][760]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.03:978][781]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.05:178][925]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.05:377][949]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.05:853][  6]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.06:011][ 25]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.06:153][ 42]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.06:436][ 76]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.06:611][ 97]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.06:845][125]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:028][147]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:219][170]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:394][191]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:561][211]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:737][232]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.07:927][255]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.08:119][278]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.08:294][299]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.08:478][321]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.08:661][343]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.08:861][367]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:061][391]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:245][413]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:436][436]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:628][459]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:769][476]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.09:936][496]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.12:016][691]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.12:016][691]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.14:016][931]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.14:016][931]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.14:016][931]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.14:017][931]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.20:016][651]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.20:016][651]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.22:017][891]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.22:017][891]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.24:016][131]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.24:017][131]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.26:016][371]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.26:017][371]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.28:017][611]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.28:017][611]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.30:017][851]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.30:018][851]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.32:016][ 91]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.32:017][ 91]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.34:017][331]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.34:017][331]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.36:016][571]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.36:017][571]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.38:022][809]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.38:023][809]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.40:023][ 49]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.40:023][ 49]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.42:023][289]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.42:024][289]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.44:023][529]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.44:024][529]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.46:023][769]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.46:023][769]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.48:023][  9]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.48:023][  9]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.50:023][249]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.50:024][249]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.52:017][488]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.52:017][488]LogTemp: Warning: Shell Fired.
+[2021.05.25-14.59.52:841][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.59.52:841][584]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.25-14.59.52:841][584]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-14.59.52:841][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.59.52:846][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-14.59.52:864][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-14.59.52:884][584]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.25-14.59.52:884][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.59.52:885][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.25-14.59.52:899][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-14.59.52:903][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.05.25-14.59.52:930][585]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.05.25-15.00.00:191][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.05.25-15.01.16:966][969]Candidate modules for hot reload:
+[2021.05.25-15.01.16:966][969]  ToonTanks
+[2021.05.25-15.01.16:966][969]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5241 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.25-15.01.16:968][969]Warning: Starting HotReload took  0.0s.
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: New page: Compilation - 25 May 2021, 9:01:21 pm
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (PawnTurret.cpp modified)
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.25-15.01.21:502][451]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.05.25-15.01.21:502][451]CompilerResultsLog:   [1/4] PawnTurret.cpp
+[2021.05.25-15.01.21:502][451]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-5241.lib
+[2021.05.25-15.01.21:502][451]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5241.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5241.exp
+[2021.05.25-15.01.21:503][451]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-5241.dll
+[2021.05.25-15.01.21:503][451]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5241.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5241.suppressed.exp
+[2021.05.25-15.01.21:503][451]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.05.25-15.01.21:503][451]CompilerResultsLog: Total time in Parallel executor: 2.66 seconds
+[2021.05.25-15.01.21:503][451]CompilerResultsLog: Total execution time: 4.47 seconds
+[2021.05.25-15.01.21:503][451]LogMainFrame: MainFrame: Module compiling took 4.571 seconds
+[2021.05.25-15.01.21:541][451]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.25-15.01.21:595][451]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.05.25-15.01.21:600][451]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.25-15.01.21:673][451]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3605 classes and 863 folders.
+[2021.05.25-15.01.21:673][451]Display: HotReload took  4.7s.

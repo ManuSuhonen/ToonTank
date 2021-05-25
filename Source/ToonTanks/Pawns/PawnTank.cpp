@@ -25,6 +25,7 @@ void APawnTank::BeginPlay()
 {
 	Super::BeginPlay();
     PlayerControlRef = Cast<APlayerController>(GetController());
+    PlayerControlRef->bShowMouseCursor = true;
 }
 
 void APawnTank::OnDestruct() 

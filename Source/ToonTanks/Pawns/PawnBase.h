@@ -7,6 +7,7 @@
 #include "PawnBase.generated.h"
 
 class UCapsuleComponent;
+class AProjectileBase;
 
 
 UCLASS()
@@ -27,6 +28,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Components",meta = (AllowPrivateAccess = "true"))
 	USceneComponent* BulletSpawnPoint; 
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Projectile Type",meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<AProjectileBase> Projectile;
 
 public:
 	// Sets default values for this pawn's properties

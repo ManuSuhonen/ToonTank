@@ -7,7 +7,7 @@
 
 void APawnTurret::BeginPlay()
 {
-	Super::BeginPlay();
+	Super::BeginPlay(); 
 
     PlayerTank = Cast<APawnTank>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
