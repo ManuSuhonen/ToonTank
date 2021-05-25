@@ -23,13 +23,17 @@ void APawnTurret::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    if(!PlayerTank || DistToPlayer() > FireRange) return;
+
+    RotateTurretFunc(PlayerTank->GetActorLocation());
+
 }
 void APawnTurret::FireCondition() 
 {
     if(!PlayerTank) return;
 
     float dist = DistToPlayer();
-    
+
     if(dist <= FireRange)
     {
         UE_LOG(LogTemp,Display,TEXT("distance from enemy turret to player: %f"),dist);

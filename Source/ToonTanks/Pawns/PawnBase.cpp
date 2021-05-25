@@ -23,4 +23,24 @@ APawnBase::APawnBase()
 	BulletSpawnPoint->SetupAttachment(TurretMesh);
 }
 
+void APawnBase::RotateTurretFunc(FVector Target) 
+{
+	FVector cleaned = FVector(Target.X,Target.Y,TurretMesh->GetComponentLocation().Z);
+	FVector start = TurretMesh->GetComponentLocation();
+
+	FRotator rotation = FVector(cleaned - start).Rotation();
+
+	TurretMesh->SetWorldRotation(rotation);
+}
+
+void APawnBase::Fire() 
+{
+	
+}
+
+void APawnBase::OnDestruct() 
+{
+	
+}
+
 

@@ -32,5 +32,13 @@ public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
+protected:
 
+	// handles turret rotation.
+	void RotateTurretFunc(FVector Target);
+
+	void Fire();
+
+	// handles destruction.
+	virtual void OnDestruct();
 };
