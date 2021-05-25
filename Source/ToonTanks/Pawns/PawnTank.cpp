@@ -25,9 +25,6 @@ void APawnTank::BeginPlay()
 {
 	Super::BeginPlay();
     PlayerControlRef = Cast<APlayerController>(GetController());
-
-    
-	
 }
 
 void APawnTank::OnDestruct() 
