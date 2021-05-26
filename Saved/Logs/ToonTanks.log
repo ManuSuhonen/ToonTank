@@ -1907,3 +1907,528 @@ Would you like to open the Output Log to see more details?
 [2021.05.26-08.41.02:420][888]LogFileHelpers: Saving map 'Main' took 0.049
 [2021.05.26-08.41.02:432][888]AssetCheck: New page: Asset Save: Main
 [2021.05.26-08.41.02:432][888]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.05.26-08.43.12:269][607]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-08.43.12:281][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-08.43.12:281][607]PIE: New page: PIE session: Main (26 May 2021, 2:43:12 pm)
+[2021.05.26-08.43.12:281][607]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.26-08.43.12:285][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003352s)
+[2021.05.26-08.43.12:285][607]LogAIModule: Creating AISystem for world Main
+[2021.05.26-08.43.12:285][607]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2021.05.26-08.43.12:285][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004412s)
+[2021.05.26-08.43.12:321][607]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.05.26-08.43.12:328][607]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.05.26-08.43.12:328][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-08.43.12:328][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-08.43.12:328][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-08.43.12:328][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-08.43.12:328][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-08.43.12:329][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-08.43.12:329][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-08.43.12:329][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-08.43.12:329][607]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-08.43.12:329][607]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-08.43.12:332][607]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-08.43.12:332][607]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-08.43.12:340][607]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.26-08.43.12:340][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-08.43.12:340][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-08.43.12:340][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-08.43.12:341][607]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-08.43.12:341][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-08.43.12:341][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-08.43.12:354][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-08.43.12:354][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-08.43.12:354][607]LogInit: FAudioDevice initialized.
+[2021.05.26-08.43.12:354][607]LogAudio: Display: Audio Device (ID: 7) registered with world 'Main'.
+[2021.05.26-08.43.12:364][607]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.05.26-08.43.12:365][607]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.26-11.43.12
+[2021.05.26-08.43.12:366][607]LogWorld: Bringing up level for play took: 0.001177
+[2021.05.26-08.43.12:366][607]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.05.26-08.43.12:370][607]PIE: Server logged in
+[2021.05.26-08.43.12:371][607]PIE: Play in editor total start time 0.096 seconds.
+[2021.05.26-08.43.14:471][808]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.14:936][864]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.18:469][284]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.18:935][340]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.19:335][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-08.43.19:335][384]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.26-08.43.19:335][384]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.43.19:335][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.43.19:341][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-08.43.19:359][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.43.19:391][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-08.43.19:391][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-08.43.19:392][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-08.43.19:408][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-08.43.19:414][384]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2021.05.26-08.43.19:437][385]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.05.26-08.43.41:683][872]BlueprintLog: New page: Compile BP_PawnTank
+[2021.05.26-08.43.41:753][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.05.26-08.43.42:276][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.05.26-08.43.42:284][904]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_PawnTankE23947334CAF9122A1FDE7831E4234A5.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.05.26-08.43.42:322][904]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.05.26-08.43.42:322][904]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.26-08.43.44:861][176]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-08.43.44:866][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-08.43.44:866][176]PIE: New page: PIE session: Main (26 May 2021, 2:43:44 pm)
+[2021.05.26-08.43.44:867][176]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.05.26-08.43.44:870][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003630s)
+[2021.05.26-08.43.44:871][176]LogAIModule: Creating AISystem for world Main
+[2021.05.26-08.43.44:871][176]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2021.05.26-08.43.44:871][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004954s)
+[2021.05.26-08.43.44:908][176]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2021.05.26-08.43.44:912][176]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-08.43.44:912][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-08.43.44:912][176]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-08.43.44:912][176]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-08.43.44:915][176]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-08.43.44:915][176]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-08.43.44:922][176]LogAudioMixer: Display: Using Audio Device Headphones (2- MDR-1000X Stereo)
+[2021.05.26-08.43.44:923][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-08.43.44:923][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-08.43.44:923][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-08.43.44:923][176]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-08.43.44:924][176]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-08.43.44:924][176]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-08.43.44:936][176]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-08.43.44:936][176]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-08.43.44:936][176]LogInit: FAudioDevice initialized.
+[2021.05.26-08.43.44:936][176]LogAudio: Display: Audio Device (ID: 8) registered with world 'Main'.
+[2021.05.26-08.43.44:941][176]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.05.26-08.43.44:942][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.05.26-11.43.44
+[2021.05.26-08.43.44:942][176]LogWorld: Bringing up level for play took: 0.001129
+[2021.05.26-08.43.44:942][176]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.05.26-08.43.44:945][176]PIE: Server logged in
+[2021.05.26-08.43.44:946][176]PIE: Play in editor total start time 0.081 seconds.
+[2021.05.26-08.43.45:496][229]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.45:961][285]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.48:862][633]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.48:862][633]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.48:878][635]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.49:287][684]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.49:978][767]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.50:219][796]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.50:861][873]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.50:862][873]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.50:862][873]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.50:862][873]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.50:869][874]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.50:887][876]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.50:978][887]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.51:195][913]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.51:286][924]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.51:286][924]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.52:420][ 60]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.52:644][ 87]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.52:862][113]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.52:862][113]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.52:862][113]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.52:862][113]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.52:862][113]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.52:886][116]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.52:903][118]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.52:969][126]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.54:654][328]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.54:862][353]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.54:862][353]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.54:862][353]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.54:863][353]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.54:863][353]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.55:053][376]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.55:287][404]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.55:812][467]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:253][520]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.56:354][532]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:578][559]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.56:770][582]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:862][593]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:862][593]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:862][593]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.56:878][595]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.56:878][595]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.57:045][615]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.57:286][644]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.57:687][692]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.57:945][723]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.58:862][833]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.58:862][833]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.58:862][833]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.58:862][833]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.58:863][833]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.58:870][834]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.59:286][884]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.59:286][884]LogTemp: Warning: hit detected.
+[2021.05.26-08.43.59:353][892]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.43.59:636][926]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.00:720][ 56]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.00:862][ 73]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.00:863][ 73]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.01:171][110]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.01:287][124]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.01:287][124]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.01:496][149]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.01:803][186]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.02:862][313]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.02:862][313]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.02:862][313]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.02:862][313]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.02:862][313]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.02:863][313]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.03:162][349]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.03:287][364]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.03:287][364]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.03:553][396]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.03:637][406]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.03:887][436]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.04:446][503]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.04:695][533]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.04:762][541]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.04:862][553]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.04:862][553]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.04:862][553]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.04:886][556]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.04:895][557]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.05:062][577]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.05:270][602]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.05:287][604]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.05:421][620]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.05:504][630]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.05:728][657]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.06:429][741]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.06:837][790]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.06:862][793]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.06:863][793]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.06:863][793]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.06:863][793]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.06:879][795]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.06:887][796]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.07:054][816]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.07:286][844]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.07:303][846]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.07:453][864]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.08:554][996]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.08:738][ 18]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.08:863][ 33]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.08:863][ 33]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.08:879][ 35]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.08:962][ 45]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.09:020][ 52]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.09:163][ 69]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.09:204][ 74]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.09:287][ 84]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.09:354][ 92]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.09:404][ 98]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.09:562][117]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.09:754][140]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.10:546][235]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.10:713][255]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.10:863][273]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.10:863][273]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.10:863][273]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.10:863][273]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.10:905][278]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.10:929][281]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.10:955][284]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.11:096][301]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.11:287][324]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.11:329][329]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.11:388][336]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.11:687][372]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:430][461]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:571][478]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:671][490]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:730][497]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:813][507]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:863][513]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:863][513]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:863][513]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:863][513]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:871][514]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.12:871][514]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:879][515]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:905][518]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:946][523]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.12:946][523]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.13:071][538]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.13:080][539]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.13:254][560]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.13:572][598]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.13:755][620]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.13:879][635]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.13:905][638]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:088][660]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:088][660]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.14:264][681]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.14:279][683]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:554][716]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.14:721][736]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.14:862][753]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:863][753]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:863][753]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:863][753]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.14:863][753]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.14:863][753]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.15:287][804]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.15:288][804]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.15:413][819]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.15:597][841]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.15:821][868]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.15:847][871]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:004][890]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:089][900]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:271][922]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:288][924]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:429][941]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:463][945]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:621][964]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:630][965]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:814][987]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:814][987]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:863][993]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:863][993]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:864][993]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:864][993]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.16:864][993]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:864][993]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.16:971][  6]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.17:230][ 37]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.17:230][ 37]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.17:280][ 43]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.18:122][144]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:297][165]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:521][192]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.18:530][193]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:696][213]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.18:863][233]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:864][233]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:864][233]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:864][233]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.18:880][235]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.18:880][235]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.18:946][243]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.19:255][280]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.19:292][284]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.19:293][284]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.19:460][304]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.19:668][329]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.19:726][336]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.19:818][347]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.19:860][352]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.20:059][376]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.20:068][377]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.20:259][400]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.20:459][424]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.20:868][473]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.20:868][473]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.20:868][473]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.20:868][473]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.21:177][510]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.21:293][524]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.21:293][524]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.21:360][532]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.21:535][553]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.21:567][557]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.21:751][579]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.21:760][580]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:001][609]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.22:043][614]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:185][631]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:226][636]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.22:376][654]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.22:510][670]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.22:660][688]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:835][709]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:869][713]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:869][713]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:869][713]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.22:869][713]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:085][739]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:119][743]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:268][761]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:293][764]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:293][764]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:301][765]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:419][779]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:543][794]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:585][799]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:652][807]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:694][812]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:818][827]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:818][827]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.23:909][838]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.23:977][846]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.24:093][860]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.24:210][874]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.24:326][888]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.24:660][928]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.24:868][953]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.24:869][953]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.24:869][953]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.24:869][953]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.24:927][960]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:069][977]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.25:127][984]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:218][995]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.25:293][  4]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:369][ 13]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.25:485][ 27]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:552][ 35]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:577][ 38]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.25:676][ 50]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:802][ 65]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.25:934][ 81]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.25:951][ 83]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:209][114]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:268][121]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:502][149]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:693][172]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:835][189]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:868][193]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:868][193]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:869][193]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:877][194]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.26:893][196]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:893][196]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:968][205]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.26:968][205]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.27:061][216]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.27:093][220]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.27:268][241]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.27:351][251]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.27:435][261]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.27:668][289]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.27:668][289]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.28:402][377]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:543][394]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:702][413]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:726][416]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.28:869][433]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:869][433]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:869][433]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.28:877][434]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.28:877][434]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.28:885][435]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.28:918][439]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.29:068][457]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:093][460]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.29:252][479]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.29:293][484]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:385][495]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:419][499]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.29:452][503]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:593][520]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:802][545]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.29:944][562]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:086][579]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:244][598]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:244][598]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.30:402][617]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:403][617]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.30:568][637]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.30:577][638]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:701][653]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.30:761][660]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:869][673]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:869][673]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:869][673]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:870][673]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.30:936][681]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.30:936][681]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:102][701]LogTemp: Warning: Shell Fired.
+[2021.05.26-08.44.31:110][702]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:294][724]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:294][724]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:327][728]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:568][757]LogTemp: Warning: hit detected.
+[2021.05.26-08.44.31:975][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-08.44.31:975][801]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.05.26-08.44.31:976][801]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.44.31:976][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.44.31:980][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-08.44.31:998][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.44.32:029][801]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-08.44.32:030][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-08.44.32:031][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-08.44.32:045][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-08.44.32:051][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.05.26-08.44.32:076][802]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.05.26-08.51.48:287][826]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.26-08.52.38:107][ 75]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.26-08.52.40:553][306]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.52.40:553][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.52.40:621][306]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.05.26-08.53.35:211][952]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.53.35:212][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.53.35:613][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.26-08.53.35:613][975]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.53.35:613][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.53.36:075][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.26-08.53.36:075][ 15]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.53.36:075][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.53.38:346][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.26-08.53.38:346][265]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-08.53.38:346][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-08.54.15:588][340]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.05.26-09.01.09:053][787]Candidate modules for hot reload:
+[2021.05.26-09.01.09:053][787]  ToonTanks
+[2021.05.26-09.01.09:054][787]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,4954 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: New page: Compilation - 26 May 2021, 3:01:20 pm
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (directory added)
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.26-09.01.20:375][787]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.8012314 seconds
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.26-09.01.20:375][787]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.26-09.01.20:375][787]CompilerResultsLog:   [1/6] HealthComponent.cpp
+[2021.05.26-09.01.20:375][787]CompilerResultsLog:   C:\Users\Manu\Documents\ToonTank\Source\ToonTanks\Components\HealthComponent.cpp(4): fatal error C1083: Cannot open include file: 'Components/HealthComponent.h': No such file or directory
+[2021.05.26-09.01.20:375][787]CompilerResultsLog:   [2/6] ToonTanks.init.gen.cpp
+[2021.05.26-09.01.20:375][787]CompilerResultsLog:   [3/6] HealthComponent.gen.cpp
+[2021.05.26-09.01.20:375][787]LogMainFrame: MainFrame: Module compiling took 11.324 seconds
+[2021.05.26-09.01.20:375][787]Warning: HotReload failed, recompile failed
+[2021.05.26-09.01.20:375][787]Warning: RebindPackages failed because compilation failed.
+[2021.05.26-09.01.23:360][787]LogSlate: Window 'Message' being destroyed
+[2021.05.26-09.01.23:364][787]Message dialog closed, result: No, title: Message, text: Successfully added class 'HealthComponent', however you must recompile the 'ToonTanks' module before it will appear in the Content Browser. Failed to automatically hot reload the 'ToonTanks' module.
+
+Would you like to open the Output Log to see more details?
+[2021.05.26-09.01.23:364][787]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.05.26-09.01.48:131][ 81]Candidate modules for hot reload:
+[2021.05.26-09.01.48:131][ 81]  ToonTanks
+[2021.05.26-09.01.48:131][ 81]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1633 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.26-09.01.48:133][ 81]Warning: Starting HotReload took  0.0s.
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: New page: Compilation - 26 May 2021, 3:01:51 pm
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (HealthComponent.cpp modified)
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:   [1/4] HealthComponent.cpp
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1633.lib
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1633.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1633.exp
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1633.dll
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1633.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1633.suppressed.exp
+[2021.05.26-09.01.51:335][390]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Total time in Parallel executor: 1.38 seconds
+[2021.05.26-09.01.51:335][390]CompilerResultsLog: Total execution time: 3.12 seconds
+[2021.05.26-09.01.51:335][390]LogMainFrame: MainFrame: Module compiling took 3.209 seconds
+[2021.05.26-09.01.51:366][390]LogClass: Could not find existing class HealthComponent in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.26-09.01.51:393][390]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.26-09.01.51:433][390]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 6 classes and 6 folders.
+[2021.05.26-09.01.51:442][390]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.05.26-09.01.51:554][390]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0119 seconds. Added 3607 classes and 865 folders.
+[2021.05.26-09.01.51:554][390]Display: HotReload took  3.4s.
+[2021.05.26-09.02.17:967][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.05.26-09.02.25:112][ 20]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" -game -rocket -progress
+[2021.05.26-09.02.25:415][ 20]Discovering modules, targets and source code for project...
+[2021.05.26-09.02.26:626][ 20]Binding IntelliSense data...
+[2021.05.26-09.02.31:663][ 20]Binding IntelliSense data... 100%
+[2021.05.26-09.02.31:663][ 20]Writing project files...
+[2021.05.26-09.02.32:167][ 20]Writing project files... 100%
