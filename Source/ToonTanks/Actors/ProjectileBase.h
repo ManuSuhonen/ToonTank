@@ -26,7 +26,7 @@ private:
 	TSubclassOf<UDamageType> DamageType;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Projectile Speed",meta = (AllowPrivateAccess = "true"))
-	float Speed = 1000;
+	float Speed = 1111;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Damage Amount",meta = (AllowPrivateAccess = "true"))
 	float DamageAmount = 50;

@@ -20,7 +20,7 @@ private:
 
 
 public:
-	void ActorDiead(AActor* DeadActor);
+	void ActorDied(AActor* DeadActor);
 
 protected:
 	virtual void BeginPlay();
