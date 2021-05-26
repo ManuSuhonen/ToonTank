@@ -13,5 +13,22 @@ UCLASS()
 class TOONTANKS_API ATankGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+private:
+	void HandleGameStart();
+	void HandleGameOver(bool PlayerWon);
+
+
+public:
+	void ActorDiead(AActor* DeadActor);
+
+protected:
+	virtual void BeginPlay();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameStart();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameOver(bool PlayerWon);
+
 };

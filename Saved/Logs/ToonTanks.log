@@ -1820,3 +1820,90 @@ Would you like to open the Output Log to see more details?
 [2021.05.26-08.23.52:035][596]Writing project files...
 [2021.05.26-08.23.52:740][596]Writing project files... 100%
 [2021.05.26-08.24.33:509][178]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2021.05.26-08.26.50:517][331]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" -game -rocket -progress
+[2021.05.26-08.26.50:821][331]Discovering modules, targets and source code for project...
+[2021.05.26-08.26.52:126][331]Binding IntelliSense data...
+[2021.05.26-08.26.54:450][331]Binding IntelliSense data... 100%
+[2021.05.26-08.26.54:450][331]Writing project files...
+[2021.05.26-08.26.54:954][331]Writing project files... 100%
+[2021.05.26-08.34.27:260][  0]Candidate modules for hot reload:
+[2021.05.26-08.34.27:260][  0]  ToonTanks
+[2021.05.26-08.34.27:260][  0]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,7849 ToonTanksEditor Win64 Development -Project="C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject" "C:/Users/Manu/Documents/ToonTank/ToonTanks.uproject"  -IgnoreJunk]
+[2021.05.26-08.34.27:262][  0]Warning: Starting HotReload took  0.0s.
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: New page: Compilation - 26 May 2021, 2:34:34 pm
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Manu\Documents\ToonTank).
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Manu\Documents\ToonTank\ToonTanks.uproject" "C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Manu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.4756138 seconds
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Building ToonTanksEditor...
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.26-08.34.34:270][774]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:   [2/6] TankGameModeBase.cpp
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:   [3/6] TankGameModeBase.gen.cpp
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-7849.lib
+[2021.05.26-08.34.34:270][774]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7849.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7849.exp
+[2021.05.26-08.34.34:271][774]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-7849.dll
+[2021.05.26-08.34.34:271][774]CompilerResultsLog:      Creating library C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7849.suppressed.lib and object C:\Users\Manu\Documents\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7849.suppressed.exp
+[2021.05.26-08.34.34:271][774]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2021.05.26-08.34.34:271][774]CompilerResultsLog: Total time in Parallel executor: 1.70 seconds
+[2021.05.26-08.34.34:271][774]CompilerResultsLog: Total execution time: 6.94 seconds
+[2021.05.26-08.34.34:271][774]LogMainFrame: MainFrame: Module compiling took 7.014 seconds
+[2021.05.26-08.34.34:349][774]LogClass: Could not find existing class TankGameModeBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.05.26-08.34.34:380][774]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2021.05.26-08.34.34:482][774]LogHotReload: Re-instancing TankGameModeBase after hot-reload.
+[2021.05.26-08.34.34:503][774]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 5 classes and 5 folders.
+[2021.05.26-08.34.34:514][774]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.05.26-08.34.34:640][774]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0119 seconds. Added 3606 classes and 864 folders.
+[2021.05.26-08.34.34:641][774]Display: HotReload took  7.4s.
+[2021.05.26-08.35.55:855][975]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameModes/BP_GameModeBase.BP_GameModeBase
+[2021.05.26-08.35.56:308][975]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.05.26-08.35.56:428][976]LogRenderer: Reallocating scene render targets to support 1208x760 Format 10 NumSamples 1 (Frame:1).
+[2021.05.26-08.35.57:908][118]LogSlate: Took 0.005779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.26-08.35.58:795][184]LogRenderer: Reallocating scene render targets to support 1208x764 Format 10 NumSamples 1 (Frame:211).
+[2021.05.26-08.35.58:839][185]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:213).
+[2021.05.26-08.35.59:142][221]LogSlate: Window 'BP_GameModeBase' being destroyed
+[2021.05.26-08.36.59:775][925]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.26-08.37.20:506][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameModes/BP_GameModeBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset" SILENT=true
+[2021.05.26-08.37.20:523][553]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_GameModeBaseC009EF874F1AE8303E92A68A4F2B893D.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset'
+[2021.05.26-08.37.20:566][553]AssetCheck: New page: Asset Save: BP_GameModeBase
+[2021.05.26-08.37.20:566][553]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameModes/BP_GameModeBase.BP_GameModeBase
+[2021.05.26-08.37.21:842][689]BlueprintLog: New page: Compile BP_GameModeBase
+[2021.05.26-08.37.21:987][689]LogUObjectHash: Compacting FUObjectHashTables data took   6.77ms
+[2021.05.26-08.37.22:929][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameModes/BP_GameModeBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset" SILENT=true
+[2021.05.26-08.37.22:933][772]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_GameModeBaseF875DE744B64051ABBD7478AB8610EA2.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset'
+[2021.05.26-08.37.22:944][772]AssetCheck: New page: Asset Save: BP_GameModeBase
+[2021.05.26-08.37.22:944][772]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameModes/BP_GameModeBase.BP_GameModeBase
+[2021.05.26-08.37.24:550][956]BlueprintLog: New page: Compile BP_GameModeBase
+[2021.05.26-08.37.24:621][956]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2021.05.26-08.37.27:354][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameModes/BP_GameModeBase" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset" SILENT=true
+[2021.05.26-08.37.27:358][244]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/BP_GameModeBase30D4B4F84C0FF0DC0A12F89CB754A711.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/GameModes/BP_GameModeBase.uasset'
+[2021.05.26-08.37.27:372][244]AssetCheck: New page: Asset Save: BP_GameModeBase
+[2021.05.26-08.37.27:372][244]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameModes/BP_GameModeBase.BP_GameModeBase
+[2021.05.26-08.37.44:513][378]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.26-08.38.01:709][ 37]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.26-08.39.20:865][663]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2021.05.26-08.39.23:067][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.26-08.39.23:553][854]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2021.05.26-08.39.24:985][948]Cmd: DELETE
+[2021.05.26-08.39.24:985][948]Cmd: ACTOR DELETE
+[2021.05.26-08.39.24:995][948]LogEditorActor: Deleted Actor: BP_PawnTank_C
+[2021.05.26-08.39.25:061][948]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2021.05.26-08.39.25:064][948]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2021.05.26-08.39.35:319][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.26-08.39.51:611][331]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.05.26-08.40.41:037][686]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2021.05.26-08.40.41:044][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.05.26-08.40.41:056][686]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Main_Auto149E94DFE46107674E1A438AD4B0BEBD9.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2021.05.26-08.40.41:058][686]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.061
+[2021.05.26-08.40.41:058][686]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2021.05.26-08.40.42:130][793]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2021.05.26-08.40.43:292][930]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.26-08.41.02:345][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.05.26-08.41.02:371][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.26-08.41.02:404][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.05.26-08.41.02:415][888]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/MainD8C55CE049F8BFAB18C9A8978A3583C2.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Maps/Main.umap'
+[2021.05.26-08.41.02:420][888]LogFileHelpers: Saving map 'Main' took 0.049
+[2021.05.26-08.41.02:432][888]AssetCheck: New page: Asset Save: Main
+[2021.05.26-08.41.02:432][888]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
