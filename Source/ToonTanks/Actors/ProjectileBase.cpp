@@ -38,7 +38,7 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 
 	if(OtherActor && OtherActor != this && MyOwner != OtherActor)
 	{
-		UE_LOG(LogTemp,Warning,TEXT("hit detected."));
+		//UE_LOG(LogTemp,Warning,TEXT("hit detected."));
 		UGameplayStatics::ApplyDamage(OtherActor, DamageAmount, MyOwner->GetInstigatorController(), this, DamageType);
 	}
 
