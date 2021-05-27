@@ -35,7 +35,7 @@ private:
 public:
 	// Sets default values for this pawn's properties
 	APawnBase();
-
+	virtual void OnDestruct();
 protected:
 
 	// handles turret rotation.
@@ -44,5 +44,5 @@ protected:
 	void Fire();
 
 	// handles destruction.
-	virtual void OnDestruct();
+	
 };

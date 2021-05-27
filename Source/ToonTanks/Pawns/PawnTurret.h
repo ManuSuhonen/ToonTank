@@ -27,9 +27,9 @@ private:
 	float DistToPlayer();
 public:
 	virtual void Tick(float DeltaTime) override;
-
+	virtual void OnDestruct() override;
 protected:
 	virtual void BeginPlay() override;
-	virtual void OnDestruct() override;
+	
 	
 };
