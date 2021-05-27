@@ -1607,3 +1607,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.27-12.34.12:647][945]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStart0A1A29D24C06356A8F0EA98CC4AD54F5.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset'
 [2021.05.27-12.34.12:662][945]AssetCheck: New page: Asset Save: WBP_GameStart
 [2021.05.27-12.34.12:662][945]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.05.27-12.36.27:734][227]BlueprintLog: New page: Compile WBP_GameStart
+[2021.05.27-12.36.27:770][227]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.05.27-12.36.32:514][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2021.05.27-12.36.32:528][662]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStartFE0599384B190890C70FA18FB81B842A.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2021.05.27-12.36.32:539][662]AssetCheck: New page: Asset Save: WBP_GameStart
+[2021.05.27-12.36.32:539][662]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
