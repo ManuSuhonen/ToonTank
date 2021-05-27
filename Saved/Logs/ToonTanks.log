@@ -1532,3 +1532,78 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.27-11.59.43:286][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
 [2021.05.27-11.59.43:325][242]LogPlayLevel: Display: Destroying online subsystem :Context_10
 [2021.05.27-12.00.12:506][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.05.27-12.01.27:529][229]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.27-12.01.48:652][449]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.05.27-12.01.48:663][449]LogContentBrowser: Creating deferred item: NewFolder
+[2021.05.27-12.01.53:012][951]LogContentBrowser: Attempting asset rename: NewFolder -> Widgets
+[2021.05.27-12.01.53:012][951]LogContentBrowser: End creating deferred item NewFolder
+[2021.05.27-12.02.10:294][400]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.05.27-12.02.10:301][400]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.05.27-12.02.21:143][682]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_GameStart
+[2021.05.27-12.02.21:155][682]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.05.27-12.02.23:864][  3]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.05.27-12.02.23:995][  3]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.05.27-12.02.25:074][  3]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.27-12.06.23:779][264]LogEditorTransaction: Undo Drag and Drop Widget
+[2021.05.27-12.06.30:759][972]LogEditorTransaction: Undo Edit Left
+[2021.05.27-12.06.54:203][302]LogEditorTransaction: Undo Edit Top
+[2021.05.27-12.07.07:498][724]LogEditorTransaction: Undo Edit Top
+[2021.05.27-12.08.19:222][541]LogEditorTransaction: Undo Edit Top
+[2021.05.27-12.08.19:757][554]LogEditorTransaction: Undo Edit Left
+[2021.05.27-12.10.02:631][ 15]LogEditorTransaction: Undo Resize Widget
+[2021.05.27-12.12.52:772][675]LogEditorTransaction: Undo Move Node
+[2021.05.27-12.12.53:567][693]LogEditorTransaction: Undo Add Node
+[2021.05.27-12.12.58:134][126]Cmd: TRANSACTION UNDO
+[2021.05.27-12.12.58:134][126]LogEditorTransaction: Undo Delete current selection
+[2021.05.27-12.14.11:444][256]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.27-12.16.18:189][287]BlueprintLog: New page: Compile WBP_GameStart
+[2021.05.27-12.16.18:239][287]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.05.27-12.16.18:903][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2021.05.27-12.16.18:908][324]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStartD80E813648069328087ADB8C80AF6CD9.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2021.05.27-12.16.18:922][324]AssetCheck: New page: Asset Save: WBP_GameStart
+[2021.05.27-12.16.18:922][324]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.05.27-12.16.20:088][412]LogSlate: Window 'WBP_GameStart' being destroyed
+[2021.05.27-12.17.13:321][851]BlueprintLog: New page: Collapse to Function
+[2021.05.27-12.18.24:795][638]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.05.27-12.18.24:797][638]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.027
+[2021.05.27-12.18.24:798][638]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([2] browsable assets)...
+[2021.05.27-12.18.24:798][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2021.05.27-12.18.24:804][638]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStart_Auto169B26D704AACCD26B49025B07D1D0E94.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto1.uasset'
+[2021.05.27-12.18.24:804][638]LogFileHelpers: Auto-saving content packages took 0.007
+[2021.05.27-12.20.01:087][198]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.27-12.21.06:348][311]Cmd: TRANSACTION UNDO
+[2021.05.27-12.21.06:348][311]LogEditorTransaction: Undo Remove Variable
+[2021.05.27-12.28.16:964][109]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.16:986][110]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.05.27-12.28.16:986][110]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.05.27-12.28.17:013][110]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.17:015][110]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.05.27-12.28.17:015][110]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.05.27-12.28.17:163][113]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.17:164][113]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.05.27-12.28.17:164][113]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.05.27-12.28.17:253][118]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.17:264][119]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.05.27-12.28.17:264][119]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.05.27-12.28.17:283][120]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.17:296][121]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.27-12.28.17:582][142]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2021.05.27-12.28.17:582][142]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.05.27-12.28.17:664][148]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.05.27-12.28.17:664][148]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.05.27-12.30.46:214][299]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.27-12.31.08:282][810]LogEditorTransaction: Undo Move Node
+[2021.05.27-12.31.15:048][271]LogEditorTransaction: Undo Create Pin Link
+[2021.05.27-12.31.15:469][282]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.27-12.34.02:225][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.05.27-12.34.02:228][552]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.027
+[2021.05.27-12.34.02:228][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([2] browsable assets)...
+[2021.05.27-12.34.02:228][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2021.05.27-12.34.02:242][552]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStart_Auto21257671E4071A00BDCDB9F81B5A09990.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto2.uasset'
+[2021.05.27-12.34.02:242][552]LogFileHelpers: Auto-saving content packages took 0.014
+[2021.05.27-12.34.11:079][813]BlueprintLog: New page: Compile WBP_GameStart
+[2021.05.27-12.34.11:107][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.05.27-12.34.12:633][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2021.05.27-12.34.12:647][945]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/WBP_GameStart0A1A29D24C06356A8F0EA98CC4AD54F5.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2021.05.27-12.34.12:662][945]AssetCheck: New page: Asset Save: WBP_GameStart
+[2021.05.27-12.34.12:662][945]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
