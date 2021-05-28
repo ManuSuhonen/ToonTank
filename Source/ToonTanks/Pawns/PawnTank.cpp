@@ -31,6 +31,7 @@ void APawnTank::BeginPlay()
 void APawnTank::OnDestruct() 
 {
     Super::OnDestruct();
+    Destroy();
 }
 
 // Called every frame
