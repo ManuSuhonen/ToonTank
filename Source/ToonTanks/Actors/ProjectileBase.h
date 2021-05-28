@@ -26,10 +26,13 @@ private:
 	TSubclassOf<UDamageType> DamageType;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Projectile Speed",meta = (AllowPrivateAccess = "true"))
-	float Speed = 1111;
+	float Speed = 1000;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Damage Amount",meta = (AllowPrivateAccess = "true"))
 	float DamageAmount = 50;
+
+	UPROPERTY(EditAnywhere,Category = "Effects")
+	UParticleSystem* HitEffect;
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
