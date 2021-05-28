@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "particles/ParticleSystemComponent.h"
 
 
 
@@ -17,6 +18,9 @@ AProjectileBase::AProjectileBase()
 	projectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Projectile Mesh"));
 	projectileMesh->OnComponentHit.AddDynamic(this,&AProjectileBase::OnHit);
 	RootComponent = projectileMesh;
+
+	TrailEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Trail Effect"));
+	TrailEffect->SetupAttachment(RootComponent);
 
 	projectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement Component"));
 	projectileMovement->InitialSpeed = Speed;

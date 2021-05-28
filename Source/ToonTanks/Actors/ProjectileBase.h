@@ -22,6 +22,9 @@ private:
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Components",meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* projectileMesh;
 
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Components",meta = (AllowPrivateAccess = "true"))
+	UParticleSystemComponent* TrailEffect;
+
 	UPROPERTY(EditDefaultsOnly,Category = "Damage")
 	TSubclassOf<UDamageType> DamageType;
 
@@ -33,6 +36,7 @@ private:
 
 	UPROPERTY(EditAnywhere,Category = "Effects")
 	UParticleSystem* HitEffect;
+
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
