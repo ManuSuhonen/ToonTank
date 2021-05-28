@@ -8,6 +8,7 @@
 
 class UCapsuleComponent;
 class AProjectileBase;
+class UHealthComponent;
 
 
 UCLASS()
@@ -29,8 +30,16 @@ private:
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Components",meta = (AllowPrivateAccess = "true"))
 	USceneComponent* BulletSpawnPoint; 
 
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Components",meta = (AllowPrivateAccess = "true"))
+	UHealthComponent* HealthComponent; 
+
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category = "Projectile Type",meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectileBase> Projectile;
+
+
+	UPROPERTY(EditAnywhere,Category = "Effects")
+	UParticleSystem* DeathParticle;
+
 
 public:
 	// Sets default values for this pawn's properties

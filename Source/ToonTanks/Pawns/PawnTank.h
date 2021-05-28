@@ -32,6 +32,8 @@ private:
 
 	APlayerController* PlayerControlRef;
 
+	bool bIsAlive = true;
+
 	void CalcMoveInput(float Val);
 	void CalcRotateInput(float Val);
 	void Move();
@@ -49,6 +51,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	bool GetIsAlive();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

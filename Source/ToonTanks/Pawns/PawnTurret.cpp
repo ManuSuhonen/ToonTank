@@ -38,6 +38,7 @@ void APawnTurret::Tick(float DeltaTime)
 void APawnTurret::FireCondition() 
 {
     if(!PlayerTank) return;
+    if(PlayerTank->GetIsAlive() == false) return;
 
     float dist = DistToPlayer();
 
@@ -45,7 +46,6 @@ void APawnTurret::FireCondition()
     {
         Fire();
     }
-
 }
 
 float APawnTurret::DistToPlayer() 

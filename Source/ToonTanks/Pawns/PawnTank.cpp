@@ -30,6 +30,10 @@ void APawnTank::BeginPlay()
 void APawnTank::OnDestruct() 
 {
     Super::OnDestruct();
+    bIsAlive = false;
+
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
     //Destroy();
 }
 
@@ -49,6 +53,11 @@ void APawnTank::Tick(float DeltaTime)
         RotateTurretFunc(hit.ImpactPoint);
     }
 
+}
+
+bool APawnTank::GetIsAlive() 
+{
+    return bIsAlive;
 }
 
 // Called to bind functionality to input
