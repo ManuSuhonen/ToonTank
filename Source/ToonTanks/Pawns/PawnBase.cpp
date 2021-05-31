@@ -6,6 +6,7 @@
 #include "ToonTanks/Actors/ProjectileBase.h"
 #include "ToonTanks/Components/HealthComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Camera/CameraShake.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -54,6 +55,7 @@ void APawnBase::OnDestruct()
 {
 	UGameplayStatics::SpawnEmitterAtLocation(this, DeathParticle, GetActorLocation());
 	UGameplayStatics::PlaySoundAtLocation(this,DeathSound,GetActorLocation());
+	GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(DeathShake);
 }
 
 

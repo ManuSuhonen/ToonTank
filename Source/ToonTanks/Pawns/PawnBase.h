@@ -9,6 +9,7 @@
 class UCapsuleComponent;
 class AProjectileBase;
 class UHealthComponent;
+class UMatineeCameraShake;
 
 
 UCLASS()
@@ -39,6 +40,9 @@ private:
 
 	UPROPERTY(EditAnywhere,Category = "Effects")
 	UParticleSystem* DeathParticle;
+
+	UPROPERTY(EditAnywhere,Category = "Effects")
+	TSubclassOf<UMatineeCameraShake> DeathShake;
 
 	UPROPERTY(EditAnywhere,Category = "Sound")
 	USoundBase* DeathSound;

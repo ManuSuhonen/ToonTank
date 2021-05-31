@@ -7,6 +7,7 @@
 #include "ProjectileBase.generated.h"
 
 class UProjectileMovementComponent;
+class UMatineeCameraShake;
 
 
 UCLASS()
@@ -36,6 +37,9 @@ private:
 
 	UPROPERTY(EditAnywhere,Category = "Effects")
 	UParticleSystem* HitEffect;
+	
+	UPROPERTY(EditAnywhere,Category = "Effects")
+	TSubclassOf<UMatineeCameraShake> HitShake;
 
 	UPROPERTY(EditAnywhere,Category = "Sound")
 	USoundBase* HitSound;
