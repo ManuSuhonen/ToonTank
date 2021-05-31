@@ -40,6 +40,9 @@ private:
 	UPROPERTY(EditAnywhere,Category = "Effects")
 	UParticleSystem* DeathParticle;
 
+	UPROPERTY(EditAnywhere,Category = "Sound")
+	USoundBase* DeathSound;
+
 
 public:
 	// Sets default values for this pawn's properties
