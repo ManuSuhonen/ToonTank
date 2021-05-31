@@ -791,3 +791,61 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.31-12.00.30:223][  8]LogContentBrowser: Creating deferred item: NewFolder
 [2021.05.31-12.00.32:854][304]LogContentBrowser: Attempting asset rename: NewFolder -> General
 [2021.05.31-12.00.32:855][304]LogContentBrowser: End creating deferred item NewFolder
+[2021.05.31-14.26.42:572][606]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{a8de9aa6-31ee-4373-a0ca-44a861f91e1b}.
+[2021.05.31-14.26.42:572][606]LogAudioMixer: Resetting audio stream to device id 
+[2021.05.31-14.26.42:586][606]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.31-14.26.42:586][606]LogAudioMixer: Display: 1: FrontRight
+[2021.05.31-16.28.01:548][320]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{5cd6973f-ce12-44fc-b0d5-eaa2596db3eb}.
+[2021.05.31-16.28.01:548][320]LogAudioMixer: Resetting audio stream to device id 
+[2021.05.31-16.28.01:605][320]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.31-16.28.01:605][320]LogAudioMixer: Display: 1: FrontRight
+[2021.05.31-16.29.02:933][168]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.31-16.32.02:445][168]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.05.31-16.32.02:450][168]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.05.31-16.32.02:457][168]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.05.31-16.32.19:060][116]LogContentBrowser: Attempting asset rename: NewBlueprint -> Bp_CameraShakeHit
+[2021.05.31-16.32.19:072][116]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.05.31-16.32.40:232][578]LogContentBrowser: Deferred new asset file creation: Bp_CameraShakeHit1
+[2021.05.31-16.32.40:238][578]LogContentBrowser: Creating deferred item: Bp_CameraShakeHit1
+[2021.05.31-16.32.46:318][262]LogContentBrowser: Attempting asset rename: Bp_CameraShakeHit1 -> Bp_CameraShakeExplode
+[2021.05.31-16.32.46:332][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.05.31-16.32.46:335][262]LogContentBrowser: End creating deferred item Bp_CameraShakeHit1
+[2021.05.31-16.34.10:997][876]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/Bp_CameraShakeHit.Bp_CameraShakeHit
+[2021.05.31-16.34.11:537][876]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.05.31-16.34.12:262][876]LogSlate: Took 0.005490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.31-16.34.34:128][207]LogSlate: Window 'Bp_CameraShakeHit' being destroyed
+[2021.05.31-16.34.35:279][317]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.31-16.34.35:279][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.31-16.34.36:894][470]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/Bp_CameraShakeHit.Bp_CameraShakeHit
+[2021.05.31-16.36.52:405][816]LogSlate: Window 'Bp_CameraShakeHit' being destroyed
+[2021.05.31-16.38.19:344][ 10]BlueprintLog: New page: Compile Bp_CameraShakeHit
+[2021.05.31-16.38.19:380][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.05.31-16.38.20:025][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/Bp_CameraShakeHit" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset" SILENT=true
+[2021.05.31-16.38.20:033][ 47]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Bp_CameraShakeHit14A909204FF648062711DD927B909803.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset'
+[2021.05.31-16.38.20:046][ 47]AssetCheck: New page: Asset Save: Bp_CameraShakeHit
+[2021.05.31-16.38.20:046][ 47]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/Bp_CameraShakeHit.Bp_CameraShakeHit
+[2021.05.31-16.38.21:607][182]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/Bp_CameraShakeExplode.Bp_CameraShakeExplode
+[2021.05.31-16.39.27:719][857]BlueprintLog: New page: Compile Bp_CameraShakeHit
+[2021.05.31-16.39.27:739][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.05.31-16.39.28:206][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/Bp_CameraShakeHit" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset" SILENT=true
+[2021.05.31-16.39.28:207][889]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Bp_CameraShakeHitEAD943864620386F43A677A7EFAB7F9B.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset'
+[2021.05.31-16.39.28:217][889]AssetCheck: New page: Asset Save: Bp_CameraShakeHit
+[2021.05.31-16.39.28:217][889]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/Bp_CameraShakeHit.Bp_CameraShakeHit
+[2021.05.31-16.40.28:489][505]BlueprintLog: New page: Compile Bp_CameraShakeExplode
+[2021.05.31-16.40.28:508][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.05.31-16.40.29:558][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/Bp_CameraShakeExplode" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeExplode.uasset" SILENT=true
+[2021.05.31-16.40.29:560][566]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Bp_CameraShakeExplode8A8B350A422E7E1A0D2F78AE59F1395C.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeExplode.uasset'
+[2021.05.31-16.40.29:571][566]AssetCheck: New page: Asset Save: Bp_CameraShakeExplode
+[2021.05.31-16.40.29:571][566]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/Bp_CameraShakeExplode.Bp_CameraShakeExplode
+[2021.05.31-16.40.30:910][672]BlueprintLog: New page: Compile Bp_CameraShakeHit
+[2021.05.31-16.40.30:929][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.05.31-16.40.31:890][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/Bp_CameraShakeHit" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset" SILENT=true
+[2021.05.31-16.40.31:891][737]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Bp_CameraShakeHit011D297B419FDB879C4803B7FE20581D.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeHit.uasset'
+[2021.05.31-16.40.31:899][737]AssetCheck: New page: Asset Save: Bp_CameraShakeHit
+[2021.05.31-16.40.31:899][737]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/Bp_CameraShakeHit.Bp_CameraShakeHit
+[2021.05.31-16.41.35:083][ 85]BlueprintLog: New page: Compile Bp_CameraShakeExplode
+[2021.05.31-16.41.35:103][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.05.31-16.41.35:954][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/Bp_CameraShakeExplode" FILE="../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeExplode.uasset" SILENT=true
+[2021.05.31-16.41.35:955][141]LogSavePackage: Moving '../../../../../../Users/Manu/Documents/ToonTank/Saved/Bp_CameraShakeExplode66BDC54E49538E05B5C3679A6446F8E9.tmp' to '../../../../../../Users/Manu/Documents/ToonTank/Content/Blueprints/General/Bp_CameraShakeExplode.uasset'
+[2021.05.31-16.41.35:965][141]AssetCheck: New page: Asset Save: Bp_CameraShakeExplode
+[2021.05.31-16.41.35:965][141]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/Bp_CameraShakeExplode.Bp_CameraShakeExplode
