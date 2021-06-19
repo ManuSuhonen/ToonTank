@@ -1,5 +1,5 @@
 # ToonTank
-Unreal engine 4 course ToonTanks made in C++ and some Blueprints.
+Unreal engine 4 course ToonTanks made in C++ and some Blueprints. Course by www.gamedev.tv.
 
 ![Alt text](Pics/GameStart.jpg?raw=true "Game Start")
 
